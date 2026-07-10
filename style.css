@@ -134,3 +134,17 @@ padding:30px;
 text-align:center;
 margin-top:60px;
   }
+.info{
+display:flex;
+flex-wrap:wrap;
+gap:8px;
+padding:0 15px 15px;
+}
+
+.info span{
+background:#2a2a2a;
+padding:6px 10px;
+border-radius:8px;
+font-size:13px;
+color:#00ff66;
+}

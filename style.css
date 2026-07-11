@@ -165,3 +165,52 @@ color:#00ff66;
 .search-box input:focus{
     outline:2px solid #00ff66;
   }
+/* ===== Category Buttons ===== */
+
+.filter-buttons{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:12px;
+margin:25px 0 40px;
+}
+
+.filter-buttons button{
+
+background:#111;
+
+color:#00ff66;
+
+border:2px solid #00ff66;
+
+padding:12px 22px;
+
+border-radius:30px;
+
+cursor:pointer;
+
+font-size:15px;
+
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+.filter-buttons button:hover{
+
+background:#00ff66;
+
+color:#111;
+
+box-shadow:0 0 15px #00ff66;
+
+}
+
+.filter-buttons .active{
+
+background:#00ff66;
+
+color:#111;
+
+  }

@@ -148,3 +148,20 @@ border-radius:8px;
 font-size:13px;
 color:#00ff66;
 }
+.search-box{
+    margin:20px 0 40px;
+}
+
+.search-box input{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    background:#1a1a1a;
+    color:white;
+    font-size:16px;
+}
+
+.search-box input:focus{
+    outline:2px solid #00ff66;
+  }

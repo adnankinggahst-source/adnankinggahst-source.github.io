@@ -1,1 +1,1 @@
-// GTA Best Mods JavaScript
+console.log("GtaBestMods Loaded");

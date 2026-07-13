@@ -309,3 +309,33 @@ padding:20px;
 }
 
   }
+.menu-btn{
+display:none;
+background:#00ff88;
+color:#111;
+border:none;
+font-size:28px;
+padding:8px 12px;
+border-radius:8px;
+cursor:pointer;
+}
+
+@media (max-width:768px){
+
+.menu-btn{
+display:block;
+}
+
+nav{
+display:none;
+width:100%;
+flex-direction:column;
+background:#111;
+padding:15px;
+}
+
+nav.active{
+display:flex;
+}
+
+                                             }
